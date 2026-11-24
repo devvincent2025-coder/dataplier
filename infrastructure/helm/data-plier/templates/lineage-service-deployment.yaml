@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lineage-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: lineage-service
+  template:
+    metadata:
+      labels:
+        app: lineage-service
+    spec:
+      containers:
+        - name: lineage-service
+          image: {{ .Values.lineageService.image }}
+          imagePullPolicy: {{ .Values.global.imagePullPolicy }}
+          ports:
+            - containerPort: {{ .Values.lineageService.port }}
+

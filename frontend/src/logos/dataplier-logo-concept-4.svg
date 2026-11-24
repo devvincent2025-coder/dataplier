@@ -1,0 +1,17 @@
+<svg width="960" height="240" viewBox="0 0 960 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data Plier logo concept 4">
+  <rect width="960" height="240" fill="#FFFFFF"/>
+  <g transform="translate(64 34)">
+    <rect x="0" y="0" width="172" height="172" rx="42" fill="#FF6B1A"/>
+    <path d="M48 118 C35 102, 35 88, 45 78 L65 98 C64 106, 58 113, 48 118 Z" fill="#FFFFFF"/>
+    <path d="M104 118 C117 102, 117 88, 107 78 L87 98 C88 106, 94 113, 104 118 Z" fill="#FFFFFF"/>
+    <path d="M72 72 L56 56 C64 48, 72 46, 80 52 L80 68 Z" fill="#FFFFFF"/>
+    <path d="M80 68 L80 52 C88 46, 96 48, 104 56 L88 72 Z" fill="#FFFFFF"/>
+    <circle cx="76" cy="88" r="5" fill="#FF6B1A"/>
+    <circle cx="76" cy="88" r="2.2" fill="#FFFFFF"/>
+    <path d="M92 82 L130 82 L120 72 M130 82 L120 92" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(274 80)">
+    <text x="0" y="42" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" fill="#111827">Data Plier</text>
+    <text x="2" y="86" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#6B7280" letter-spacing="1">BUILD " VALIDATE " MOVE</text>
+  </g>
+</svg>

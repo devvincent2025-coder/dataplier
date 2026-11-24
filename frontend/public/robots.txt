@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+
+# Prioritize important pages
+Crawl-delay: 1
+
+# Disallow admin and private areas
+Disallow: /dashboard
+Disallow: /workspaces
+Disallow: /connections
+Disallow: /pipelines
+Disallow: /pipeline-builder
+Disallow: /dataset-explorer
+Disallow: /schema-editor
+Disallow: /jobs-monitor
+Disallow: /observability
+Disallow: /routing-center
+Disallow: /template-library
+Disallow: /roles
+Disallow: /api-keys
+Disallow: /audit-trail
+Disallow: /billing
+Disallow: /settings
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+
+# Allow specific marketing pages
+Allow: /$
+Allow: /overview
+Allow: /product
+Allow: /philosophy
+Allow: /pricing
+
+# Sitemap location
+Sitemap: https://dataplier.com/sitemap.xml
+
+# Block common bots that don't follow rules
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Primary Databricks Workspace",
+    "platform": "databricks",
+    "config": {
+      "host": "https://adb-123.azuredatabricks.net",
+      "http_path": "/sql/1.0/warehouses/primary",
+      "catalog": "main"
+    }
+  },
+  {
+    "name": "Analytics BigQuery",
+    "platform": "bigquery",
+    "config": {
+      "project_id": "enterprise-analytics",
+      "location": "US"
+    }
+  }
+]
+

@@ -1,0 +1,11 @@
+{
+  "objective": "Make customer data available to the fraud detection AI system.",
+  "source_system": "snowflake",
+  "destination_system": "ai-feature-store",
+  "dataset_size_gb": 1200,
+  "network_bandwidth_mbps": 1800,
+  "worker_capacity": 24,
+  "cost_preference": "balanced",
+  "latency_slo_minutes": 45
+}
+

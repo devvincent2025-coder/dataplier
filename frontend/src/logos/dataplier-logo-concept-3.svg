@@ -1,0 +1,22 @@
+<svg width="960" height="240" viewBox="0 0 960 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data Plier logo concept 3">
+  <rect width="960" height="240" fill="#FFFFFF"/>
+  <g transform="translate(62 28)">
+    <circle cx="90" cy="92" r="82" fill="#FFF4EC" stroke="#FFD9C2" stroke-width="2"/>
+    <path d="M66 136 C52 122, 50 108, 58 96 L78 116 C77 123, 73 130, 66 136 Z" fill="#FF6B1A"/>
+    <path d="M114 136 C128 122, 130 108, 122 96 L102 116 C103 123, 107 130, 114 136 Z" fill="#FF6B1A"/>
+    <path d="M82 90 L68 74 C74 66, 82 64, 90 70 L90 86 Z" fill="#111827"/>
+    <path d="M98 90 L112 74 C106 66, 98 64, 90 70 L90 86 Z" fill="#111827"/>
+    <rect x="80" y="88" width="20" height="20" rx="4" fill="#111827"/>
+    <circle cx="90" cy="102" r="4" fill="#FFFFFF"/>
+    <circle cx="30" cy="60" r="5" fill="#FF6B1A"/>
+    <circle cx="150" cy="58" r="5" fill="#FF6B1A"/>
+    <circle cx="156" cy="148" r="5" fill="#FF6B1A"/>
+    <path d="M30 60 L68 74" stroke="#FF6B1A" stroke-width="2"/>
+    <path d="M150 58 L112 74" stroke="#FF6B1A" stroke-width="2"/>
+    <path d="M156 148 L114 136" stroke="#FF6B1A" stroke-width="2"/>
+  </g>
+  <g transform="translate(270 84)">
+    <text x="0" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" fill="#0F172A">Data Plier</text>
+    <text x="0" y="78" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" fill="#6B7280">SCHEMA CONTROL " ROUTING " GOVERNANCE</text>
+  </g>
+</svg>

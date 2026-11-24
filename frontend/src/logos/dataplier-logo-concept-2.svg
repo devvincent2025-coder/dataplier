@@ -1,0 +1,13 @@
+<svg width="960" height="240" viewBox="0 0 960 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data Plier logo concept 2">
+  <rect width="960" height="240" fill="#FFFFFF"/>
+  <g transform="translate(60 30)">
+    <rect x="0" y="0" width="180" height="180" rx="26" fill="#111827"/>
+    <path d="M44 42 H86 C121 42 142 64 142 98 C142 132 121 154 86 154 H44 Z M74 72 V124 H86 C102 124 112 114 112 98 C112 82 102 72 86 72 Z" fill="#FFFFFF"/>
+    <path d="M111 85 L142 62 L132 92 Z" fill="#FF6B1A"/>
+    <circle cx="124" cy="92" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(282 84)">
+    <text x="0" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="#111827">Data Plier</text>
+    <text x="0" y="80" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" fill="#6B7280" letter-spacing="1">PIPELINE ORCHESTRATION LAYER</text>
+  </g>
+</svg>

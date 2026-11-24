@@ -1,0 +1,16 @@
+<svg width="960" height="240" viewBox="0 0 960 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data Plier logo concept 5">
+  <rect width="960" height="240" fill="#FFFFFF"/>
+  <g transform="translate(66 36)">
+    <rect x="0" y="0" width="168" height="168" rx="24" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+    <path d="M58 118 C45 104, 44 92, 52 82" stroke="#111827" stroke-width="9" stroke-linecap="round"/>
+    <path d="M110 118 C123 104, 124 92, 116 82" stroke="#111827" stroke-width="9" stroke-linecap="round"/>
+    <path d="M76 82 L62 66" stroke="#111827" stroke-width="9" stroke-linecap="round"/>
+    <path d="M92 82 L106 66" stroke="#111827" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="84" cy="90" r="5" fill="#FF6B1A"/>
+    <circle cx="84" cy="90" r="2.2" fill="#FFFFFF"/>
+    <circle cx="116" cy="48" r="4" fill="#FF6B1A"/>
+    <circle cx="132" cy="62" r="4" fill="#FF6B1A"/>
+    <circle cx="144" cy="78" r="4" fill="#FF6B1A"/>
+    <path d="M106 66 L116 48 L132 62 L144 78" stroke="#FF6B1A" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>

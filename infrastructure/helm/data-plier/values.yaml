@@ -1,0 +1,26 @@
+global:
+  imagePullPolicy: IfNotPresent
+
+apiGateway:
+  image: dataplier/api-gateway:latest
+  port: 8080
+
+chunkEngine:
+  image: dataplier/chunk-engine:latest
+  port: 8090
+
+routingEngine:
+  image: dataplier/routing-engine:latest
+  port: 8092
+
+lineageService:
+  image: dataplier/lineage-service:latest
+  port: 8088
+
+transformationService:
+  image: dataplier/transformation-service:latest
+  port: 8091
+
+frontend:
+  image: dataplier/frontend:latest
+  port: 80

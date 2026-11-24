@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: routing-engine
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: routing-engine
+  template:
+    metadata:
+      labels:
+        app: routing-engine
+    spec:
+      containers:
+        - name: routing-engine
+          image: {{ .Values.routingEngine.image }}
+          imagePullPolicy: {{ .Values.global.imagePullPolicy }}
+          ports:
+            - containerPort: {{ .Values.routingEngine.port }}
+

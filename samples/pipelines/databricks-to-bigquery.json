@@ -1,0 +1,16 @@
+{
+  "name": "Databricks Orders To BigQuery",
+  "schedule": "0 */6 * * *",
+  "nodes": [
+    { "id": "src-1", "type": "source", "label": "Databricks", "config": { "dataset": "sales.orders" } },
+    { "id": "chunk-1", "type": "chunk", "label": "Chunk Engine", "config": { "target_chunk_mb": 256 } },
+    { "id": "transform-1", "type": "transform", "label": "Normalize Schema", "config": { "mode": "schema_normalization" } },
+    { "id": "dst-1", "type": "destination", "label": "BigQuery", "config": { "dataset": "warehouse.orders" } }
+  ],
+  "edges": [
+    { "source": "src-1", "target": "chunk-1" },
+    { "source": "chunk-1", "target": "transform-1" },
+    { "source": "transform-1", "target": "dst-1" }
+  ]
+}
+
